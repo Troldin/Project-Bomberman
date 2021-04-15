@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bombs">
+    <Position X="14.25" Y="1.75" Width="1.75" />
+    <InheritanceLine Type="ControllableElement" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="11.75" Y="3.312" />
+        <Point X="14.25" Y="3.303" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAgAEAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Bombs.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BombsController">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAIIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bombs.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControllableElement">
+    <Position X="10" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAIAAAAgAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>ControllableElements.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControllableElementController">
+    <Position X="3" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAEAAAAAAAAAIAAAAAABAAAQAAAAAACAAAA=</HashCode>
+      <FileName>ControllableElements.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Element">
+    <Position X="7.75" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQIAIADAICAAgAQAAgIAAAAEBBAAAggAAAAAAEAAAA=</HashCode>
+      <FileName>Elements.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Explosion">
+    <Position X="12.25" Y="0.75" Width="1.75" />
+    <InheritanceLine Type="ControllableElement" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="11.75" Y="3.125" />
+        <Point X="13.094" Y="3.125" />
+        <Point X="13.094" Y="2.819" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAkAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Explosion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplosionController">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Explosion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game">
+    <Position X="5.75" Y="6.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Game::GameStatus">
+        <TypeIdentifier>
+          <NewMemberFileName>Game.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAgAAAAAAAAAAAAAUQAiAAAAAQCAAAACAAAI=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LocalizationVector::Vector2e">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAgAAAAYAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>Vector2e.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MapTile">
+    <Position X="14.25" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAgABAAAAEgAAAAAEAAAAA=</HashCode>
+      <FileName>MapTile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="12" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAIAgAAAAAAAAAgAAIAAAAgAACAAQIAAAA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerController">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAVAAAAgAAAAAAAAAAAAAAAEAAAAAEAIQAAAAAACAAA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextureManager">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="TextureManager::TTexturesUM" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TextureManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAABABAAAAAAABAAAAAAAQAAgAEEAAAg=</HashCode>
+      <FileName>TextureManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TileController">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <InheritanceLine Type="ControllableElementController" FixedFromPoint="true">
+      <Path>
+        <Point X="3.75" Y="4.25" />
+        <Point X="3.75" Y="3.95" />
+        <Point X="4.75" Y="3.95" />
+        <Point X="4.75" Y="1.925" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapTile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllElements">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="AllElements::ElementsVec" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AllElements.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAYACAAAEBAAAgAAAAAABAQAAAAAAAAAAAAAAEEAAAI=</HashCode>
+      <FileName>AllElements.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="PlayerDirection">
+    <Position X="4" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAI=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TileType">
+    <Position X="2.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAIAAAgAEAAAAA=</HashCode>
+      <FileName>MapTile.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

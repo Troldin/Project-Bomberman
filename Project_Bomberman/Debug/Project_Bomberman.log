@@ -1,0 +1,27 @@
+﻿  Bomberman_main.cpp
+  Bombs.cpp
+C:\Users\kamil\source\repos\polsl-aei-pk2-tele\815a117c-gr22-repo\Projekt\Project_Bomberman\Project_Bomberman\Bombs.cpp(61,101): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kamil\source\repos\polsl-aei-pk2-tele\815a117c-gr22-repo\Projekt\Project_Bomberman\Project_Bomberman\Bombs.cpp(92,72): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kamil\source\repos\polsl-aei-pk2-tele\815a117c-gr22-repo\Projekt\Project_Bomberman\Project_Bomberman\Bombs.cpp(124,69): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Explosion.cpp
+  Game.cpp
+C:\Users\kamil\source\repos\polsl-aei-pk2-tele\815a117c-gr22-repo\Projekt\Project_Bomberman\Project_Bomberman\Bombs.cpp(153,69): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kamil\source\repos\polsl-aei-pk2-tele\815a117c-gr22-repo\Projekt\Project_Bomberman\Project_Bomberman\Game.cpp(78,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\kamil\source\repos\polsl-aei-pk2-tele\815a117c-gr22-repo\Projekt\Project_Bomberman\Project_Bomberman\Game.cpp(79,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\kamil\source\repos\polsl-aei-pk2-tele\815a117c-gr22-repo\Projekt\Project_Bomberman\Project_Bomberman\Game.cpp(84,78): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\kamil\source\repos\polsl-aei-pk2-tele\815a117c-gr22-repo\Projekt\Project_Bomberman\Project_Bomberman\Game.cpp(84,70): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\kamil\source\repos\polsl-aei-pk2-tele\815a117c-gr22-repo\Projekt\Project_Bomberman\Project_Bomberman\Game.cpp(89,67): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+  AllElements.cpp
+  MapTile.cpp
+  ControllableElements.cpp
+  Player.cpp
+C:\Users\kamil\source\repos\polsl-aei-pk2-tele\815a117c-gr22-repo\Projekt\Project_Bomberman\Project_Bomberman\Game.cpp(89,59): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\kamil\source\repos\polsl-aei-pk2-tele\815a117c-gr22-repo\Projekt\Project_Bomberman\Project_Bomberman\Player.cpp(158,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\kamil\source\repos\polsl-aei-pk2-tele\815a117c-gr22-repo\Projekt\Project_Bomberman\Project_Bomberman\Player.cpp(159,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\kamil\source\repos\polsl-aei-pk2-tele\815a117c-gr22-repo\Projekt\Project_Bomberman\Project_Bomberman\Player.cpp(191,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  TextureManager.cpp
+  Generating Code...
+C:\Users\kamil\source\repos\polsl-aei-pk2-tele\815a117c-gr22-repo\Projekt\Project_Bomberman\Project_Bomberman\Player.cpp(192,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\kamil\source\repos\polsl-aei-pk2-tele\815a117c-gr22-repo\Projekt\Project_Bomberman\Project_Bomberman\AllElements.cpp(22): warning C4715: 'AllElements::Add': not all control paths return a value
+C:\Users\kamil\source\repos\polsl-aei-pk2-tele\815a117c-gr22-repo\Projekt\Project_Bomberman\Project_Bomberman\Game.cpp(144): warning C4715: 'Game::Run': not all control paths return a value
+  Project_Bomberman.vcxproj -> C:\Users\kamil\source\repos\polsl-aei-pk2-tele\815a117c-gr22-repo\Projekt\Project_Bomberman\Debug\Project_Bomberman.exe

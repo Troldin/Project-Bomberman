@@ -1,0 +1,19 @@
+﻿  Bomberman_main.cpp
+  Bombs.cpp
+C:\Users\kamil\OneDrive\Pulpit\Nowy folder\Project_Bomberman\Bomberman_main.h(3,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Explosion.cpp
+C:\Users\kamil\OneDrive\Pulpit\Nowy folder\Project_Bomberman\Bomberman_main.h(3,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Game.cpp
+C:\Users\kamil\OneDrive\Pulpit\Nowy folder\Project_Bomberman\Bomberman_main.h(3,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  AllElements.cpp
+C:\Users\kamil\OneDrive\Pulpit\Nowy folder\Project_Bomberman\Bomberman_main.h(3,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  MapTile.cpp
+C:\Users\kamil\OneDrive\Pulpit\Nowy folder\Project_Bomberman\Bomberman_main.h(3,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  ControllableElements.cpp
+C:\Users\kamil\OneDrive\Pulpit\Nowy folder\Project_Bomberman\Bomberman_main.h(3,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Player.cpp
+C:\Users\kamil\OneDrive\Pulpit\Nowy folder\Project_Bomberman\Bomberman_main.h(3,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  TextureManager.cpp
+C:\Users\kamil\OneDrive\Pulpit\Nowy folder\Project_Bomberman\Bomberman_main.h(3,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Generating Code...
+C:\Users\kamil\OneDrive\Pulpit\Nowy folder\Project_Bomberman\Bomberman_main.h(3,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory

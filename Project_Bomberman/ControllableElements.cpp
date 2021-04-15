@@ -1,0 +1,44 @@
+#include "ControllableElements.h"
+
+/////////////////////////////////////////////////////////////////////////
+ControllableElement::ControllableElement(ControllableElementController* controller)
+	: m_controller(nullptr)
+{
+	if (controller && controller->Possess(this))
+	{
+		m_controller = controller;
+	}
+}
+/////////////////////////////////////////////////////////////////////////
+ControllableElement::~ControllableElement()
+{
+	if (m_controller)
+		delete m_controller;
+}
+/////////////////////////////////////////////////////////////////////////
+void ControllableElement::Update(const float& deltaTime)
+{
+	if (m_controller)
+		m_controller->Update(deltaTime);
+}
+/////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////
+ControllableElementController::ControllableElementController()
+	: m_owner(nullptr)
+{
+}
+/////////////////////////////////////////////////////////////////////////
+ControllableElementController::~ControllableElementController()
+{
+}
+/////////////////////////////////////////////////////////////////////////
+bool ControllableElementController::Possess(ControllableElement* owner)
+{
+	if (!m_owner)
+	{
+		m_owner = owner;
+		return true;
+	}
+	return false;
+}
